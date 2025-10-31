@@ -1,5 +1,8 @@
 # Urdu Conversational Chatbot: Transformer with Multi-Head Attention (From Scratch)
 
+## Project Code Tree
+
+```
 urdu_chatbot/
 ├── requirements.txt
 ├── README.md
@@ -18,6 +21,7 @@ urdu_chatbot/
     ├── inference.py
     ├── app.py
     └── attention_viz.py
+```
 
 
 This project implements a custom Urdu conversational chatbot using a Transformer encoder–decoder with multi-head attention in PyTorch. It includes preprocessing (Urdu normalization, tokenization), training with teacher forcing, evaluation (BLEU, ROUGE-L, chrF, Perplexity), and a Gradio UI for real-time interaction.
