@@ -1,0 +1,10 @@
+torch
+pandas
+numpy
+tqdm
+sacrebleu==2.4.2
+rouge-score==0.1.2
+gradio>=4.0.0
+matplotlib
+regex
+scikit-learn
